@@ -1,0 +1,162 @@
+# BankSecure Platform
+
+**Cloud Security · Backend Engineering · DevSecOps · SRE**
+
+Projeto de estudos e engenharia de software voltado à construção de uma plataforma demonstrativa inspirada nos desafios tecnológicos do setor financeiro.
+
+O objetivo é desenvolver uma aplicação modular que reúna engenharia de backend, segurança de aplicações, infraestrutura cloud, automação de controles e confiabilidade operacional.
+
+> Este é um projeto independente para fins educacionais e de portfólio. Não possui vínculo com Itaú, Santander, Bradesco ou qualquer outra instituição financeira.
+
+## Objetivos
+
+- Desenvolver APIs e serviços com arquitetura modular.
+- Aplicar princípios de segurança desde a concepção da aplicação.
+- Construir serviços demonstrativos de pagamentos e cobrança.
+- Implementar autenticação, autorização e proteção de APIs.
+- Automatizar verificações de segurança em pipelines CI/CD.
+- Provisionar infraestrutura utilizando Infrastructure as Code.
+- Executar aplicações em containers e Kubernetes.
+- Implementar observabilidade, monitoramento e práticas de SRE.
+- Documentar decisões arquiteturais, controles e procedimentos operacionais.
+
+## Domínios da plataforma
+
+### 1. Banking Core
+
+Camada responsável pelos serviços de negócio financeiro demonstrativos.
+
+- APIs de pagamentos e cobrança.
+- Processamento e validação de operações.
+- Persistência e transações.
+- Idempotência e controle de duplicidade.
+- Integração por mensageria.
+
+### 2. Security Control Plane
+
+Camada responsável pela governança e automação de segurança.
+
+- Gestão de controles de segurança.
+- Segurança de APIs.
+- Identidade e controle de acesso.
+- Threat Modeling.
+- Policy as Code.
+- Auditoria e rastreabilidade.
+
+### 3. DevSecOps Center
+
+Automação de segurança integrada ao ciclo de desenvolvimento.
+
+- SAST.
+- DAST.
+- SCA.
+- SBOM.
+- Análise de vulnerabilidades.
+- Verificação de infraestrutura como código.
+- Pipelines com controles automatizados.
+
+### 4. Cloud Infrastructure
+
+Camada de infraestrutura e implantação.
+
+- AWS.
+- Redes e controle de acesso.
+- Terraform.
+- Docker.
+- Kubernetes.
+- Gerenciamento de segredos.
+
+### 5. Observability & Reliability Center
+
+Camada de monitoramento e confiabilidade.
+
+- Métricas, logs e traces.
+- Monitoramento de aplicações.
+- Alertas.
+- SLI, SLO e SLA.
+- Gestão de incidentes.
+- Recuperação e disponibilidade.
+
+## Stack tecnológica planejada
+
+| Categoria | Tecnologias |
+|---|---|
+| Backend principal | Java, Spring Boot |
+| Serviços auxiliares | Node.js, TypeScript, Fastify |
+| Frontend | React, TypeScript |
+| Banco de dados | MySQL |
+| Mensageria | Apache Kafka |
+| APIs | REST, OpenAPI |
+| Cloud | AWS |
+| Multi-cloud | Azure e GCP |
+| Containers | Docker |
+| Orquestração | Kubernetes |
+| Infrastructure as Code | Terraform |
+| CI/CD | GitHub Actions |
+| Segurança | Semgrep, Trivy, OWASP ZAP, Checkov, GitLeaks |
+| Policy as Code | Open Policy Agent (OPA) |
+| Observabilidade | Prometheus, Grafana, OpenTelemetry e Jaeger |
+
+*As tecnologias serão incorporadas progressivamente, conforme as etapas de desenvolvimento.*
+
+## Diretrizes arquiteturais
+
+O projeto seguirá inicialmente uma arquitetura de monólito modular, com separação clara entre domínios e responsabilidades.
+
+A evolução para microsserviços será considerada somente quando houver justificativa técnica relacionada a escalabilidade, isolamento, integração ou necessidades operacionais.
+
+Princípios adotados:
+
+- SOLID.
+- Clean Code.
+- Separação de responsabilidades.
+- Segurança por padrão.
+- Princípio do menor privilégio.
+- Automação e rastreabilidade.
+- Testabilidade.
+- Observabilidade.
+
+## Plano de desenvolvimento
+
+| Etapa | Área |
+|---|---|
+| 01 | Linux, redes e fundamentos de infraestrutura |
+| 02 | AWS e Cloud Security |
+| 03 | Java, Spring Boot e Banking Core |
+| 04 | Docker, Kubernetes e Terraform |
+| 05 | Cyber Security e DevSecOps |
+| 06 | SRE e Observabilidade |
+| 07 | Security Platform e Policy as Code |
+| 08 | Documentação, testes e consolidação do portfólio |
+
+## Documentação
+
+A documentação técnica será organizada progressivamente em `docs/`.
+
+- Arquitetura e decisões técnicas.
+- Planejamento de carreira e oportunidades.
+- Plano de estudos.
+- Modelagem de ameaças.
+- Segurança e infraestrutura.
+- Observabilidade e confiabilidade.
+
+## Objetivo profissional
+
+Construir experiência prática e demonstrável nas áreas de:
+
+- Cloud Security Engineering.
+- Platform Engineering.
+- Backend Engineering.
+- Application Security.
+- DevSecOps.
+- Site Reliability Engineering.
+
+O projeto utiliza como referências técnicas competências identificadas em oportunidades de engenharia de software, segurança e infraestrutura de instituições financeiras brasileiras.
+
+---
+
+**Status:** Planejamento e estruturação inicial.
+
+**Repositório:** BankSecure Platform
+
+**Autor:** Johnatan Quenes
